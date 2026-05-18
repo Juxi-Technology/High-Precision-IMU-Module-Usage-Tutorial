@@ -1,4 +1,4 @@
-## High-Precision IMU Module Usage Tutorial
+## High-Precision IMU Module
 
 This repository contains complete documentation, usage guides, application cases, and supporting resources for a high-performance IMU (Inertial Measurement Unit) module powered by a 72MHz 32-bit processor. The module delivers real-time attitude calculation, dynamic compensation, and up to 100Hz data output frequency, making it ideal for robotics, UAVs, navigation systems, and more.
 
