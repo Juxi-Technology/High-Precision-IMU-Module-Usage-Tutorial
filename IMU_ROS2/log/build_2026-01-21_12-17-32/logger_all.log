@@ -1,0 +1,185 @@
+[0.167s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.167s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c85b44329e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c85b44324d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c85b44324d0>>)
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.486s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/alex/IMU_ROS2'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extension 'ros'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extensions ['cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extension 'python'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extensions ['python_setup_py']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(IMU_Library) by extension 'python_setup_py'
+[0.978s] DEBUG:colcon.colcon_core.package_identification:Package 'IMU_Library' with type 'python' and name 'IMU_Library'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_ros2) by extension 'ignore'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_ros2) by extension 'ignore_ament_install'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_ros2) by extensions ['colcon_pkg']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_ros2) by extension 'colcon_pkg'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_ros2) by extensions ['colcon_meta']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_ros2) by extension 'colcon_meta'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_ros2) by extensions ['ros']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_ros2) by extension 'ros'
+[0.985s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_ros2' with type 'ros.ament_python' and name 'imu_ros2'
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.035s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/alex/IMU_ROS2/install
+[1.035s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/alex/Desktop/imu_ws/install
+[1.036s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/alex/ros_imu_ws/install
+[1.038s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[1.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'IMU_Library' build argument 'cmake_args' from command line to 'None'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'IMU_Library' build argument 'cmake_target' from command line to 'None'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'IMU_Library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'IMU_Library' build argument 'cmake_clean_cache' from command line to 'False'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'IMU_Library' build argument 'cmake_clean_first' from command line to 'False'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'IMU_Library' build argument 'cmake_force_configure' from command line to 'False'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'IMU_Library' build argument 'ament_cmake_args' from command line to 'None'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'IMU_Library' build argument 'catkin_cmake_args' from command line to 'None'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'IMU_Library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.094s] DEBUG:colcon.colcon_core.verb:Building package 'IMU_Library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/IMU_ROS2/build/IMU_Library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/IMU_ROS2/install/IMU_Library', 'merge_install': False, 'path': '/home/alex/IMU_ROS2/IMU_Library', 'symlink_install': True, 'test_result_base': None}
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'imu_ros2' build argument 'cmake_args' from command line to 'None'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'imu_ros2' build argument 'cmake_target' from command line to 'None'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'imu_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'imu_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'imu_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'imu_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'imu_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'imu_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'imu_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.095s] DEBUG:colcon.colcon_core.verb:Building package 'imu_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/IMU_ROS2/build/imu_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/IMU_ROS2/install/imu_ros2', 'merge_install': False, 'path': '/home/alex/IMU_ROS2/src/imu_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.095s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.097s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alex/IMU_ROS2/IMU_Library'
+[1.103s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.104s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.104s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.112s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alex/IMU_ROS2/src/imu_ros2' with build type 'ament_python'
+[1.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_ros2', 'ament_prefix_path')
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/hook/ament_prefix_path.ps1'
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/hook/ament_prefix_path.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/hook/ament_prefix_path.sh'
+[1.119s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.120s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.199s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alex/IMU_ROS2/src/imu_ros2'
+[2.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.200s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/IMU_ROS2/build/IMU_Library': PYTHONPATH=/home/alex/IMU_ROS2/build/IMU_Library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alex/IMU_ROS2/build/IMU_Library/build --no-deps
+[3.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/IMU_ROS2/build/imu_ros2': PYTHONPATH=/home/alex/IMU_ROS2/build/imu_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alex/IMU_ROS2/build/imu_ros2/build --no-deps symlink_data
+[3.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('IMU_Library', 'pythonpath_develop')
+[3.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/IMU_ROS2/build/IMU_Library/share/IMU_Library/hook/pythonpath_develop.ps1'
+[3.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/IMU_ROS2/build/IMU_Library' returned '0': PYTHONPATH=/home/alex/IMU_ROS2/build/IMU_Library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alex/IMU_ROS2/build/IMU_Library/build --no-deps
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/IMU_ROS2/build/IMU_Library/share/IMU_Library/hook/pythonpath_develop.dsv'
+[3.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/IMU_ROS2/build/IMU_Library/share/IMU_Library/hook/pythonpath_develop.sh'
+[3.572s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/IMU_Library' for CMake module files
+[3.573s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/IMU_Library' for CMake config files
+[3.574s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/IMU_Library/lib'
+[3.575s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/IMU_Library/bin'
+[3.575s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/IMU_Library/lib/pkgconfig/IMU_Library.pc'
+[3.576s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages'
+[3.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('IMU_Library', 'pythonpath')
+[3.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/IMU_ROS2/install/IMU_Library/share/IMU_Library/hook/pythonpath.ps1'
+[3.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/IMU_ROS2/install/IMU_Library/share/IMU_Library/hook/pythonpath.dsv'
+[3.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/IMU_ROS2/install/IMU_Library/share/IMU_Library/hook/pythonpath.sh'
+[3.583s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/IMU_Library/bin'
+[3.583s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(IMU_Library)
+[3.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/IMU_ROS2/install/IMU_Library/share/IMU_Library/package.ps1'
+[3.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/IMU_ROS2/install/IMU_Library/share/IMU_Library/package.dsv'
+[3.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/IMU_ROS2/install/IMU_Library/share/IMU_Library/package.sh'
+[3.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/IMU_ROS2/install/IMU_Library/share/IMU_Library/package.bash'
+[3.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/IMU_ROS2/install/IMU_Library/share/IMU_Library/package.zsh'
+[3.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/IMU_ROS2/install/IMU_Library/share/colcon-core/packages/IMU_Library)
+[3.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_ros2', 'pythonpath_develop')
+[3.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/IMU_ROS2/build/imu_ros2' returned '0': PYTHONPATH=/home/alex/IMU_ROS2/build/imu_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alex/IMU_ROS2/build/imu_ros2/build --no-deps symlink_data
+[3.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/IMU_ROS2/build/imu_ros2/share/imu_ros2/hook/pythonpath_develop.ps1'
+[3.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/IMU_ROS2/build/imu_ros2/share/imu_ros2/hook/pythonpath_develop.dsv'
+[3.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/IMU_ROS2/build/imu_ros2/share/imu_ros2/hook/pythonpath_develop.sh'
+[3.908s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/imu_ros2' for CMake module files
+[3.910s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/imu_ros2' for CMake config files
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/imu_ros2/lib'
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/imu_ros2/bin'
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/imu_ros2/lib/pkgconfig/imu_ros2.pc'
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages'
+[3.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_ros2', 'pythonpath')
+[3.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/hook/pythonpath.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/hook/pythonpath.dsv'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/hook/pythonpath.sh'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/alex/IMU_ROS2/install/imu_ros2/bin'
+[3.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_ros2)
+[3.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/package.ps1'
+[3.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/package.dsv'
+[3.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/package.sh'
+[3.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/package.bash'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/package.zsh'
+[3.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/IMU_ROS2/install/imu_ros2/share/colcon-core/packages/imu_ros2)
+[3.921s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.922s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.922s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.922s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.931s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.931s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.931s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.957s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.958s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alex/IMU_ROS2/install/local_setup.ps1'
+[3.960s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alex/IMU_ROS2/install/_local_setup_util_ps1.py'
+[3.962s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alex/IMU_ROS2/install/setup.ps1'
+[3.964s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alex/IMU_ROS2/install/local_setup.sh'
+[3.965s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alex/IMU_ROS2/install/_local_setup_util_sh.py'
+[3.967s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alex/IMU_ROS2/install/setup.sh'
+[3.970s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alex/IMU_ROS2/install/local_setup.bash'
+[3.972s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alex/IMU_ROS2/install/setup.bash'
+[3.975s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alex/IMU_ROS2/install/local_setup.zsh'
+[3.976s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alex/IMU_ROS2/install/setup.zsh'

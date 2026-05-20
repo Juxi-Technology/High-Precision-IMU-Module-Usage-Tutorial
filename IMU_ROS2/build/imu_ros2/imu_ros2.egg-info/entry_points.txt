@@ -1,0 +1,4 @@
+[console_scripts]
+imu_calibrator = imu_ros2.imu_calibrator:main
+imu_publisher = imu_ros2.imu_publisher:main
+

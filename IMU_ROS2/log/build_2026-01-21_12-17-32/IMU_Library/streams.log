@@ -1,0 +1,14 @@
+[1.393s] Invoking command in '/home/alex/IMU_ROS2/build/IMU_Library': PYTHONPATH=/home/alex/IMU_ROS2/build/IMU_Library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alex/IMU_ROS2/build/IMU_Library/build --no-deps
+[1.936s] running develop
+[2.358s] running egg_info
+[2.360s] writing IMU_Library.egg-info/PKG-INFO
+[2.364s] writing dependency_links to IMU_Library.egg-info/dependency_links.txt
+[2.366s] writing requirements to IMU_Library.egg-info/requires.txt
+[2.367s] writing top-level names to IMU_Library.egg-info/top_level.txt
+[2.373s] reading manifest file 'IMU_Library.egg-info/SOURCES.txt'
+[2.373s] writing manifest file 'IMU_Library.egg-info/SOURCES.txt'
+[2.380s] running build_ext
+[2.382s] Creating /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU-Library.egg-link (link to .)
+[2.387s] 
+[2.387s] Installed /home/alex/IMU_ROS2/build/IMU_Library
+[2.461s] Invoked command in '/home/alex/IMU_ROS2/build/IMU_Library' returned '0': PYTHONPATH=/home/alex/IMU_ROS2/build/IMU_Library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alex/IMU_ROS2/build/IMU_Library/build --no-deps

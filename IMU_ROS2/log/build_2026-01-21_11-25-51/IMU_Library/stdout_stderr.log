@@ -1,0 +1,12 @@
+running develop
+running egg_info
+writing IMU_Library.egg-info/PKG-INFO
+writing dependency_links to IMU_Library.egg-info/dependency_links.txt
+writing requirements to IMU_Library.egg-info/requires.txt
+writing top-level names to IMU_Library.egg-info/top_level.txt
+reading manifest file 'IMU_Library.egg-info/SOURCES.txt'
+writing manifest file 'IMU_Library.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU-Library.egg-link (link to .)
+
+Installed /home/alex/IMU_ROS2/build/IMU_Library

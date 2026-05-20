@@ -1,0 +1,36 @@
+running develop
+Removing /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU-Library.egg-link (link to .)
+running egg_info
+writing ../build/IMU_Library/IMU_Library.egg-info/PKG-INFO
+writing dependency_links to ../build/IMU_Library/IMU_Library.egg-info/dependency_links.txt
+writing requirements to ../build/IMU_Library/IMU_Library.egg-info/requires.txt
+writing top-level names to ../build/IMU_Library/IMU_Library.egg-info/top_level.txt
+reading manifest file '../build/IMU_Library/IMU_Library.egg-info/SOURCES.txt'
+writing manifest file '../build/IMU_Library/IMU_Library.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alex/IMU_ROS2/build/IMU_Library/build
+creating /home/alex/IMU_ROS2/build/IMU_Library/build/lib
+creating /home/alex/IMU_ROS2/build/IMU_Library/build/lib/IMU_Library
+copying IMU_Library/imu_calibration_tool.py -> /home/alex/IMU_ROS2/build/IMU_Library/build/lib/IMU_Library
+copying IMU_Library/IMU_visualization.py -> /home/alex/IMU_ROS2/build/IMU_Library/build/lib/IMU_Library
+copying IMU_Library/IMU_I2C_Library.py -> /home/alex/IMU_ROS2/build/IMU_Library/build/lib/IMU_Library
+copying IMU_Library/__init__.py -> /home/alex/IMU_ROS2/build/IMU_Library/build/lib/IMU_Library
+copying IMU_Library/IMU_Serial_Library.py -> /home/alex/IMU_ROS2/build/IMU_Library/build/lib/IMU_Library
+running install
+running install_lib
+creating /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU_Library
+copying /home/alex/IMU_ROS2/build/IMU_Library/build/lib/IMU_Library/imu_calibration_tool.py -> /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU_Library
+copying /home/alex/IMU_ROS2/build/IMU_Library/build/lib/IMU_Library/IMU_visualization.py -> /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU_Library
+copying /home/alex/IMU_ROS2/build/IMU_Library/build/lib/IMU_Library/IMU_I2C_Library.py -> /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU_Library
+copying /home/alex/IMU_ROS2/build/IMU_Library/build/lib/IMU_Library/__init__.py -> /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU_Library
+copying /home/alex/IMU_ROS2/build/IMU_Library/build/lib/IMU_Library/IMU_Serial_Library.py -> /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU_Library
+byte-compiling /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU_Library/imu_calibration_tool.py to imu_calibration_tool.cpython-310.pyc
+byte-compiling /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU_Library/IMU_visualization.py to IMU_visualization.cpython-310.pyc
+byte-compiling /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU_Library/IMU_I2C_Library.py to IMU_I2C_Library.cpython-310.pyc
+byte-compiling /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU_Library/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU_Library/IMU_Serial_Library.py to IMU_Serial_Library.cpython-310.pyc
+running install_egg_info
+Copying ../build/IMU_Library/IMU_Library.egg-info to /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU_Library-1.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/alex/IMU_ROS2/build/IMU_Library/install.log'

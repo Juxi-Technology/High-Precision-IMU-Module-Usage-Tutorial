@@ -1,0 +1,6 @@
+source;share/IMU_Library/hook/pythonpath.ps1
+source;share/IMU_Library/hook/pythonpath.dsv
+source;share/IMU_Library/hook/pythonpath.sh
+source;../../build/IMU_Library/share/IMU_Library/hook/pythonpath_develop.ps1
+source;../../build/IMU_Library/share/IMU_Library/hook/pythonpath_develop.dsv
+source;../../build/IMU_Library/share/IMU_Library/hook/pythonpath_develop.sh

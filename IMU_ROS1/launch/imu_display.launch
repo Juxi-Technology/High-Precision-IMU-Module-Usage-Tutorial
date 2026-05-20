@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- IMU Driver Node -->
+  <node pkg="IMU_ROS1" type="imu_driver.py" name="imu_driver" output="screen">
+    <!-- 加载参数配置 -->
+    <rosparam file="$(find IMU_ROS1)/config/imu_filter_param.yaml" command="load" />
+  </node>
+
+  <!-- 磁力计可视化节点 -->
+  <node pkg="IMU_ROS1" type="mag_visualizer.py" name="mag_visualizer" output="screen" />
+  
+  <!-- IMU Filter Node -->
+  <node pkg="imu_filter_madgwick" type="imu_filter_node" name="imu_filter" output="screen">
+    <rosparam command="load" file="$(find IMU_ROS1)/config/imu_filter_param.yaml" />
+    <remap from="imu/data_raw" to="imu/data_raw" />
+    <remap from="imu/mag" to="imu/mag" />
+    <remap from="imu/data" to="imu/data_filtered" />
+  </node>
+  
+  <!-- RViz Visualization (optional) -->
+  <arg name="rviz" default="true" />
+  <group if="$(arg rviz)">
+    <node pkg="rviz" type="rviz" name="imu_rviz" args="-d $(find IMU_ROS1)/rviz/imu.rviz" />
+  </group>
+</launch>

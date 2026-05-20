@@ -1,0 +1,18 @@
+[1.898s] Invoking command in '/home/alex/IMU_ROS2/build/imu_ros2': PYTHONPATH=/home/alex/IMU_ROS2/build/imu_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alex/IMU_ROS2/build/imu_ros2/build --no-deps symlink_data
+[2.415s] running develop
+[2.721s] running egg_info
+[2.722s] writing imu_ros2.egg-info/PKG-INFO
+[2.723s] writing dependency_links to imu_ros2.egg-info/dependency_links.txt
+[2.723s] writing entry points to imu_ros2.egg-info/entry_points.txt
+[2.723s] writing requirements to imu_ros2.egg-info/requires.txt
+[2.724s] writing top-level names to imu_ros2.egg-info/top_level.txt
+[2.726s] reading manifest file 'imu_ros2.egg-info/SOURCES.txt'
+[2.726s] writing manifest file 'imu_ros2.egg-info/SOURCES.txt'
+[2.728s] running build_ext
+[2.729s] Creating /home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages/imu-ros2.egg-link (link to .)
+[2.731s] Installing imu_calibrator script to /home/alex/IMU_ROS2/install/imu_ros2/lib/imu_ros2
+[2.732s] Installing imu_publisher script to /home/alex/IMU_ROS2/install/imu_ros2/lib/imu_ros2
+[2.733s] 
+[2.733s] Installed /home/alex/IMU_ROS2/build/imu_ros2
+[2.733s] running symlink_data
+[2.798s] Invoked command in '/home/alex/IMU_ROS2/build/imu_ros2' returned '0': PYTHONPATH=/home/alex/IMU_ROS2/build/imu_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alex/IMU_ROS2/build/imu_ros2/build --no-deps symlink_data

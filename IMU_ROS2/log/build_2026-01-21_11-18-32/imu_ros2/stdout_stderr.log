@@ -1,0 +1,41 @@
+running develop
+Removing /home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages/imu-ros2.egg-link (link to .)
+running egg_info
+writing ../../build/imu_ros2/imu_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/imu_ros2/imu_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/imu_ros2/imu_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/imu_ros2/imu_ros2.egg-info/requires.txt
+writing top-level names to ../../build/imu_ros2/imu_ros2.egg-info/top_level.txt
+reading manifest file '../../build/imu_ros2/imu_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../build/imu_ros2/imu_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alex/IMU_ROS2/build/imu_ros2/build
+creating /home/alex/IMU_ROS2/build/imu_ros2/build/lib
+creating /home/alex/IMU_ROS2/build/imu_ros2/build/lib/imu_ros2
+copying imu_ros2/imu_publisher.py -> /home/alex/IMU_ROS2/build/imu_ros2/build/lib/imu_ros2
+copying imu_ros2/imu_calibrator.py -> /home/alex/IMU_ROS2/build/imu_ros2/build/lib/imu_ros2
+copying imu_ros2/__init__.py -> /home/alex/IMU_ROS2/build/imu_ros2/build/lib/imu_ros2
+running install
+running install_lib
+creating /home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages/imu_ros2
+copying /home/alex/IMU_ROS2/build/imu_ros2/build/lib/imu_ros2/imu_publisher.py -> /home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages/imu_ros2
+copying /home/alex/IMU_ROS2/build/imu_ros2/build/lib/imu_ros2/imu_calibrator.py -> /home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages/imu_ros2
+copying /home/alex/IMU_ROS2/build/imu_ros2/build/lib/imu_ros2/__init__.py -> /home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages/imu_ros2
+byte-compiling /home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages/imu_ros2/imu_publisher.py to imu_publisher.cpython-310.pyc
+byte-compiling /home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages/imu_ros2/imu_calibrator.py to imu_calibrator.cpython-310.pyc
+byte-compiling /home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages/imu_ros2/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/imu_ros2 -> /home/alex/IMU_ROS2/install/imu_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2
+copying srv/ResetCalibration.srv -> /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/srv
+copying srv/CalibrateMagnetometer.srv -> /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/srv
+copying srv/CalibrateIMU.srv -> /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/srv
+copying launch/imu_visualization.launch.py -> /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/launch
+copying rviz/imu_config.rviz -> /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/rviz
+running install_egg_info
+Copying ../../build/imu_ros2/imu_ros2.egg-info to /home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages/imu_ros2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_calibrator script to /home/alex/IMU_ROS2/install/imu_ros2/lib/imu_ros2
+Installing imu_publisher script to /home/alex/IMU_ROS2/install/imu_ros2/lib/imu_ros2
+writing list of installed files to '/home/alex/IMU_ROS2/build/imu_ros2/install.log'

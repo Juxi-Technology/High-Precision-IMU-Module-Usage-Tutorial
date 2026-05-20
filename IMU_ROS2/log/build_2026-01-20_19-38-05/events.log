@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000340] (IMU_Library) JobQueued: {'identifier': 'IMU_Library', 'dependencies': OrderedDict()}
+[0.000383] (imu_ros2) JobQueued: {'identifier': 'imu_ros2', 'dependencies': OrderedDict()}
+[0.000408] (IMU_Library) JobStarted: {'identifier': 'IMU_Library'}
+[0.017567] (imu_ros2) JobStarted: {'identifier': 'imu_ros2'}
+[0.097824] (-) TimerEvent: {}
+[0.199729] (-) TimerEvent: {}
+[0.303331] (-) TimerEvent: {}
+[0.404634] (-) TimerEvent: {}
+[0.506384] (-) TimerEvent: {}
+[0.606962] (-) TimerEvent: {}
+[0.713691] (-) TimerEvent: {}
+[0.828581] (-) TimerEvent: {}
+[0.933096] (-) TimerEvent: {}
+[1.036876] (-) TimerEvent: {}
+[1.142881] (-) TimerEvent: {}
+[1.243655] (-) TimerEvent: {}
+[1.345754] (-) TimerEvent: {}
+[1.448790] (-) TimerEvent: {}
+[1.550405] (-) TimerEvent: {}
+[1.651182] (-) TimerEvent: {}
+[1.754580] (-) TimerEvent: {}
+[1.791615] (IMU_Library) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/alex/IMU_ROS2/build/IMU_Library/build', '--no-deps'], 'cwd': '/home/alex/IMU_ROS2/build/IMU_Library', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alex', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/alex', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1961', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d1a0f12c4955a4d2c0612ccc696f62cd', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/alex/Desktop/imu_ws/install:/home/alex/ros_imu_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'alex', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alex', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/alex-machine:@/tmp/.ICE-unix/1961,unix/alex-machine:/tmp/.ICE-unix/1961', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e7bf6356_b4c3_4326_aafe_8c6ed0abd074', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UP6EJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/alex/Desktop/imu_ws/install/imu_visualizer:/opt/ros/humble:/home/alex/ros_imu_ws/install/imu_ros2_device', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alex/IMU_ROS2/build/IMU_Library', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d1a0f12c4955a4d2c0612ccc696f62cd', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alex/IMU_ROS2/build/IMU_Library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages:/home/alex/Desktop/imu_ws/install/imu_visualizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/alex/ros_imu_ws/install/imu_ros2_device/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.864149] (-) TimerEvent: {}
+[1.967538] (-) TimerEvent: {}
+[2.070846] (-) TimerEvent: {}
+[2.179176] (-) TimerEvent: {}
+[2.285219] (-) TimerEvent: {}
+[2.385959] (-) TimerEvent: {}
+[2.489889] (-) TimerEvent: {}
+[2.592112] (-) TimerEvent: {}
+[2.673638] (IMU_Library) StdoutLine: {'line': b'running develop\n'}
+[2.697381] (-) TimerEvent: {}
+[2.801531] (-) TimerEvent: {}
+[2.904655] (-) TimerEvent: {}
+[3.006052] (-) TimerEvent: {}
+[3.109030] (-) TimerEvent: {}
+[3.121846] (IMU_Library) StdoutLine: {'line': b'running egg_info\n'}
+[3.122311] (IMU_Library) StdoutLine: {'line': b'creating IMU_Library.egg-info\n'}
+[3.123167] (IMU_Library) StdoutLine: {'line': b'writing IMU_Library.egg-info/PKG-INFO\n'}
+[3.123892] (IMU_Library) StdoutLine: {'line': b'writing dependency_links to IMU_Library.egg-info/dependency_links.txt\n'}
+[3.125189] (IMU_Library) StdoutLine: {'line': b'writing requirements to IMU_Library.egg-info/requires.txt\n'}
+[3.125400] (IMU_Library) StdoutLine: {'line': b'writing top-level names to IMU_Library.egg-info/top_level.txt\n'}
+[3.126984] (IMU_Library) StdoutLine: {'line': b"writing manifest file 'IMU_Library.egg-info/SOURCES.txt'\n"}
+[3.128717] (imu_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/alex/IMU_ROS2/build/imu_ros2/build', '--no-deps', 'symlink_data'], 'cwd': '/home/alex/IMU_ROS2/build/imu_ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alex', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/alex', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1961', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d1a0f12c4955a4d2c0612ccc696f62cd', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/alex/Desktop/imu_ws/install:/home/alex/ros_imu_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'alex', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alex', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/alex-machine:@/tmp/.ICE-unix/1961,unix/alex-machine:/tmp/.ICE-unix/1961', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e7bf6356_b4c3_4326_aafe_8c6ed0abd074', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UP6EJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/alex/Desktop/imu_ws/install/imu_visualizer:/opt/ros/humble:/home/alex/ros_imu_ws/install/imu_ros2_device', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alex/IMU_ROS2/build/imu_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d1a0f12c4955a4d2c0612ccc696f62cd', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alex/IMU_ROS2/build/imu_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages:/home/alex/Desktop/imu_ws/install/imu_visualizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/alex/ros_imu_ws/install/imu_ros2_device/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.133242] (IMU_Library) StdoutLine: {'line': b"reading manifest file 'IMU_Library.egg-info/SOURCES.txt'\n"}
+[3.133370] (IMU_Library) StdoutLine: {'line': b"writing manifest file 'IMU_Library.egg-info/SOURCES.txt'\n"}
+[3.137762] (IMU_Library) StdoutLine: {'line': b'running build_ext\n'}
+[3.140340] (IMU_Library) StdoutLine: {'line': b'Creating /home/alex/IMU_ROS2/install/IMU_Library/lib/python3.10/site-packages/IMU-Library.egg-link (link to .)\n'}
+[3.140645] (IMU_Library) StdoutLine: {'line': b'\n'}
+[3.140723] (IMU_Library) StdoutLine: {'line': b'Installed /home/alex/IMU_ROS2/build/IMU_Library\n'}
+[3.211618] (-) TimerEvent: {}
+[3.276209] (IMU_Library) CommandEnded: {'returncode': 0}
+[3.313963] (-) TimerEvent: {}
+[3.324149] (IMU_Library) JobEnded: {'identifier': 'IMU_Library', 'rc': 0}
+[3.416362] (-) TimerEvent: {}
+[3.517878] (-) TimerEvent: {}
+[3.619857] (-) TimerEvent: {}
+[3.720973] (-) TimerEvent: {}
+[3.742129] (imu_ros2) StdoutLine: {'line': b'running develop\n'}
+[3.821639] (-) TimerEvent: {}
+[3.922272] (-) TimerEvent: {}
+[4.025701] (-) TimerEvent: {}
+[4.123665] (imu_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[4.124185] (imu_ros2) StdoutLine: {'line': b'creating imu_ros2.egg-info\n'}
+[4.125127] (imu_ros2) StdoutLine: {'line': b'writing imu_ros2.egg-info/PKG-INFO\n'}
+[4.126365] (imu_ros2) StdoutLine: {'line': b'writing dependency_links to imu_ros2.egg-info/dependency_links.txt\n'}
+[4.126577] (-) TimerEvent: {}
+[4.127267] (imu_ros2) StdoutLine: {'line': b'writing entry points to imu_ros2.egg-info/entry_points.txt\n'}
+[4.127813] (imu_ros2) StdoutLine: {'line': b'writing requirements to imu_ros2.egg-info/requires.txt\n'}
+[4.129769] (imu_ros2) StdoutLine: {'line': b'writing top-level names to imu_ros2.egg-info/top_level.txt\n'}
+[4.129990] (imu_ros2) StdoutLine: {'line': b"writing manifest file 'imu_ros2.egg-info/SOURCES.txt'\n"}
+[4.132063] (imu_ros2) StdoutLine: {'line': b"reading manifest file 'imu_ros2.egg-info/SOURCES.txt'\n"}
+[4.133451] (imu_ros2) StdoutLine: {'line': b"writing manifest file 'imu_ros2.egg-info/SOURCES.txt'\n"}
+[4.136918] (imu_ros2) StdoutLine: {'line': b'running build_ext\n'}
+[4.137992] (imu_ros2) StdoutLine: {'line': b'Creating /home/alex/IMU_ROS2/install/imu_ros2/lib/python3.10/site-packages/imu-ros2.egg-link (link to .)\n'}
+[4.139180] (imu_ros2) StdoutLine: {'line': b'Installing imu_calibrator script to /home/alex/IMU_ROS2/install/imu_ros2/lib/imu_ros2\n'}
+[4.139811] (imu_ros2) StdoutLine: {'line': b'Installing imu_publisher script to /home/alex/IMU_ROS2/install/imu_ros2/lib/imu_ros2\n'}
+[4.140392] (imu_ros2) StdoutLine: {'line': b'\n'}
+[4.140584] (imu_ros2) StdoutLine: {'line': b'Installed /home/alex/IMU_ROS2/build/imu_ros2\n'}
+[4.141190] (imu_ros2) StdoutLine: {'line': b'running symlink_data\n'}
+[4.141366] (imu_ros2) StdoutLine: {'line': b'creating /home/alex/IMU_ROS2/install/imu_ros2/share/ament_index\n'}
+[4.141625] (imu_ros2) StdoutLine: {'line': b'creating /home/alex/IMU_ROS2/install/imu_ros2/share/ament_index/resource_index\n'}
+[4.141944] (imu_ros2) StdoutLine: {'line': b'creating /home/alex/IMU_ROS2/install/imu_ros2/share/ament_index/resource_index/packages\n'}
+[4.142289] (imu_ros2) StdoutLine: {'line': b'symbolically linking /home/alex/IMU_ROS2/build/imu_ros2/resource/imu_ros2 -> /home/alex/IMU_ROS2/install/imu_ros2/share/ament_index/resource_index/packages\n'}
+[4.142606] (imu_ros2) StdoutLine: {'line': b'symbolically linking /home/alex/IMU_ROS2/build/imu_ros2/package.xml -> /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2\n'}
+[4.142904] (imu_ros2) StdoutLine: {'line': b'creating /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/srv\n'}
+[4.143275] (imu_ros2) StdoutLine: {'line': b'symbolically linking /home/alex/IMU_ROS2/build/imu_ros2/srv/ResetCalibration.srv -> /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/srv\n'}
+[4.143577] (imu_ros2) StdoutLine: {'line': b'symbolically linking /home/alex/IMU_ROS2/build/imu_ros2/srv/CalibrateMagnetometer.srv -> /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/srv\n'}
+[4.144040] (imu_ros2) StdoutLine: {'line': b'symbolically linking /home/alex/IMU_ROS2/build/imu_ros2/srv/CalibrateIMU.srv -> /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/srv\n'}
+[4.144861] (imu_ros2) StdoutLine: {'line': b'creating /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/launch\n'}
+[4.145167] (imu_ros2) StdoutLine: {'line': b'symbolically linking /home/alex/IMU_ROS2/build/imu_ros2/launch/imu_visualization.launch.py -> /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/launch\n'}
+[4.145958] (imu_ros2) StdoutLine: {'line': b'creating /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/rviz\n'}
+[4.146229] (imu_ros2) StdoutLine: {'line': b'symbolically linking /home/alex/IMU_ROS2/build/imu_ros2/rviz/imu_config.rviz -> /home/alex/IMU_ROS2/install/imu_ros2/share/imu_ros2/rviz\n'}
+[4.229442] (-) TimerEvent: {}
+[4.238554] (imu_ros2) CommandEnded: {'returncode': 0}
+[4.253542] (imu_ros2) JobEnded: {'identifier': 'imu_ros2', 'rc': 0}
+[4.254826] (-) EventReactorShutdown: {}

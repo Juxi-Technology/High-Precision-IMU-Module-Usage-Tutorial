@@ -1,0 +1,4 @@
+PyOpenGL
+PyQt5
+pyserial
+smbus2

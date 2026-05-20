@@ -1,0 +1,11 @@
+setup.py
+IMU_Library/IMU_I2C_Library.py
+IMU_Library/IMU_Serial_Library.py
+IMU_Library/IMU_visualization.py
+IMU_Library/__init__.py
+IMU_Library/imu_calibration_tool.py
+IMU_Library.egg-info/PKG-INFO
+IMU_Library.egg-info/SOURCES.txt
+IMU_Library.egg-info/dependency_links.txt
+IMU_Library.egg-info/requires.txt
+IMU_Library.egg-info/top_level.txt
