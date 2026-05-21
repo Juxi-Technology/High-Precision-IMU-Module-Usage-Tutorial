@@ -64,7 +64,7 @@ sudo apt install -y python3-smbus2
 
 **3.2 Transfer Files**
 
-Friends who are not yet familiar with using MobaXterm to transfer files, please refer to the following webpage for detailed installation and operation methods of MobaXterm:[文件远程传输](https://juxitech.feishu.cn/wiki/KB0Jw2o6Wis9f0ksyeFceVmgnfd)
+Friends who are not yet familiar with using MobaXterm to transfer files, please refer to the following webpage for detailed installation and operation methods of MobaXterm:[文件远程传输](https://juxitech.feishu.cn/wiki/KB0Jw2o6Wis9f0ksyeFceVmgnfd](https://github.com/Juxi-Technology/ICM42670P-High-Precision-IMU-Module/blob/main/Multi-master%20communication%20case/Remote%20File%20Transfer.md))
 
 Drag the decompressed files **IMU_ROS2** onto Raspberry Pi 5 via MobaXterm software. 
 
