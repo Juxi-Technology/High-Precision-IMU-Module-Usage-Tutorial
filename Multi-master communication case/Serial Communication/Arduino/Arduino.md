@@ -18,7 +18,7 @@ This routine uses an Arduino Nano development board, a Windows computer, several
 | RXD      | D3           |
 | GND      | GND          |
 
-![img](https://juxitech.feishu.cn/space/api/box/stream/download/asynccode/?code=MDIzN2ExNDk0NjIzNDNlZGI1MDM2ZGE3ZmQ0OGVjM2ZfRjlrWDBtV1NRaXV3SzZrM2llUVZzT05zcU14bklPdkZfVG9rZW46RXd4WmJ5NEJnb0sxcFl4bVpXSmN5dVo1bmtmXzE3NzkzMjkzODA6MTc3OTMzMjk4MF9WNA)
+![img](https://juxitech.feishu.cn/space/api/box/stream/download/asynccode/?code=YTJjMzAxMzQyZGM0ZDNkZWNmM2QyN2ZmYjQyODVlMzJfZjVyTzgwdnNoOFd5MFlLUDBtS2dLZXpoM0JDNjUzSjdfVG9rZW46VFBjVmI2d2RPb0drbjF4bUdJR2NiaUZ4bjdlXzE3NzkzMzIxOTQ6MTc3OTMzNTc5NF9WNA)
 
 ## 2. Key Code Analysis
 
