@@ -29,3 +29,5 @@ This repository contains complete documentation, usage guides, application cases
 - Ensure your host machine and target device are on the same local network for SSH/SFTP file transfer
 - All tools support both serial and I2C communication modes, configurable via command line parameters
 - File transfer failures are usually caused by insufficient permissions on the target device: run chmod 777 <target-directory> to resolve
+
+© 2026 JuxiTechnology. All rights reserved.
